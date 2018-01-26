@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.antony.androidexp.activity.MainActivity"
+    android:background="@color/appBackgroundColor">
+
+    <ImageView
+        android:id="@+id/imgViewLanguageFlagIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/language_flag_icon"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:layout_below="@id/imgViewLanguageFlagIcon"
+        android:layout_marginStart="10dp"
+        style="@style/UserTextViewStyle"
+        />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewName"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/user_age"
+        android:layout_below="@id/imgViewLanguageFlagIcon"
+        android:layout_alignParentEnd="true"
+        style="@style/UserTextViewStyle"/>
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAge"
+        android:layout_alignParentEnd="true"
+        android:maxEms="110"
+        android:maxLength="3"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/textViewBirthDate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/birth_date"
+        android:layout_below="@id/editTextAge"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        style="@style/UserTextViewStyle"/>
+
+    <Button
+        android:id="@+id/btnBirthDate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewBirthDate"
+        android:layout_marginStart="10dp"
+        android:text="@string/date_format"
+        android:background="#00ffffff"/>
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAge"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
+        android:background="@color/btnAddUserBackgroundColor"
+        android:textColor="@color/btnAddUserTextColor"
+        android:textSize="18sp"
+        android:text="@string/add_user"
+        android:textAllCaps="false"
+        android:typeface="sans"/>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="imageViewLangFlagContDescr">Country flag</string>
+    <string name="user_name">Name</string>
+    <string name="user_age">Age</string>
+    <string name="item_menu_show_users">Show users</string>
+    <string name="item_menu_show_dirs">Show dirs</string>
+    <string name="item_menu_write_file">Write file</string>
+    <string name="item_menu_show_pref">Show preferences</string>
+    <string name="item_menu_graphic_activity">Graphic</string>
+    <string name="change_language">Change language</string>
+    <string name="current_language">Current language - </string>
+    <string name="birth_date">Date of birth</string>
+    <string name="date_format">DD-MM-YYYY</string>
+    <string name="add_user">Add</string>
+    <string name="years_old">years old</string>
+    <string name="keeped_locale">keeped_locale</string>
+    <string name="location">Location:</string>
+    <string name="file_name">File name</string>
+    <string name="file_content">File content</string>
+    <string name="write_file">Write file</string>
+    <string name="read_file">Read file</string>
+    <string name="item_menu_point">Point</string>
+    <string name="item_menu_line">Line</string>
+    <string name="item_menu_circle">Circle</string>
+    <string name="item_menu_rectangle">Rectangle</string>
+
+    <string-array name="languages">
+        <item>en</item>
+        <item>ru</item>
+    </string-array>
+</resources>

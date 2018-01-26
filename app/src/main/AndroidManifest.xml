@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.antony.androidexp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.antony.androidexp.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.antony.androidexp.activity.UsersListActivity" />
+        <activity android:name="com.example.antony.androidexp.activity.AndroidExplorer" />
+        <activity android:name="com.example.antony.androidexp.activity.FileManager" />
+        <activity android:name="com.example.antony.androidexp.activity.UserPreferences" />
+        <activity android:name="com.example.antony.androidexp.activity.GraphicActivity" />
+        <activity android:name="com.example.antony.androidexp.activity.GraphicActivity2" />
+        <activity android:name="com.example.antony.androidexp.activity.GraphicActivity3" />
+        <activity android:name="com.example.antony.androidexp.activity.GraphicActivity4" />
+        <activity android:name="com.example.antony.androidexp.activity.GraphicActivity5"></activity>
+    </application>
+
+</manifest>

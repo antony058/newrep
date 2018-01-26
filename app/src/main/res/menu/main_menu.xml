@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemMenuShowUsers"
+        android:title="@string/item_menu_show_users"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemMenuShowDirs"
+        android:title="@string/item_menu_show_dirs"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itemMenuWriteFile"
+        android:title="@string/item_menu_write_file"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itemMenuShowPreferences"
+        android:title="@string/item_menu_show_pref"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itemMenuGraphicActivity"
+        android:title="@string/item_menu_graphic_activity"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itemMenuGraphicActivity2"
+        android:title="Graphic 2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itemMenuGraphicActivity3"
+        android:title="Graphic 3"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itemMenuGraphicActivity4"
+        android:title="Graphic 4"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/itemMenuGraphicActivity5"
+        android:title="Graphic 5"
+        app:showAsAction="never"/>
+
+</menu>

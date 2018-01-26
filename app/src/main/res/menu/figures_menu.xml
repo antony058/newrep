@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemMenuPoint"
+        android:title="@string/item_menu_point"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itemMenuLine"
+        android:title="@string/item_menu_line"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itemMenuCircle"
+        android:title="@string/item_menu_circle"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itemMenuRectangle"
+        android:title="@string/item_menu_rectangle"
+        app:showAsAction="never"/>
+
+</menu>

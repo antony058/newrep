@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.antony.androidexp.activity.FileManager"
+    android:background="@color/appBackgroundColor">
+
+    <TextView
+        android:id="@+id/tvFileName"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/file_name"
+        style="@style/UserTextViewStyle"/>
+
+    <EditText
+        android:id="@+id/editTextFileName"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFileName"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvFileContent"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/file_content"
+        android:layout_below="@id/editTextFileName"
+        android:layout_marginTop="30dp"
+        style="@style/UserTextViewStyle"/>
+
+    <EditText
+        android:id="@+id/editTextFileContent"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFileContent"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnWriteFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFileContent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:background="@color/btnAddUserBackgroundColor"
+        android:textColor="@color/btnAddUserTextColor"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="@string/write_file"
+        />
+
+    <Button
+        android:id="@+id/btnReadFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFileContent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:background="@color/btnAddUserBackgroundColor"
+        android:textColor="@color/btnAddUserTextColor"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="@string/read_file"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnReadFile"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvContentOfFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/UserTextViewStyle"/>
+
+    </ScrollView>
+
+
+</RelativeLayout>
